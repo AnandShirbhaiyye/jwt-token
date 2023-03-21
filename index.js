@@ -36,7 +36,7 @@ app.post("/login", async (req, res) => {
       email: email,
       jwt_token: token,
     },
-    message: "login successfully...",
+    message: "login successfully.....",
   });
 });
 
