@@ -36,14 +36,14 @@ app.post("/login", async (req, res) => {
       email: email,
       jwt_token: token,
     },
-    message: "login successfully.....",
+    message: "login successfully...",
   });
 });
 
 app.post('/deletecourse',verifyJwttoken, (req, res)=>{
     res.json({
         success: true,
-        message: 'course deleted successfully...'
+        message: 'course deleted successfully....'
     })
   })
 
